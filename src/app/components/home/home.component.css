@@ -1,0 +1,133 @@
+.contenedor {
+    background: url('https://vulcanopro.s3.amazonaws.com/images/lar_TayNRwF2l0JsWhIZ8lPxL1EKrfFrZfYoP9DBufS3.jpeg') no-repeat center top;
+    border: 100px;
+    height: 950px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input[type=text],
+select {
+    width: 250px;
+    padding: 18px 18px;
+    margin: 10px 13px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+input[type=button] {
+    width: 500px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+input[type=button] {
+    background-color: #FF5A5F;
+    font-size: 18px;
+    margin: 15px;
+    padding: 15px;
+}
+
+div {
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+.letras {
+    font-size: 35px;
+    color: black;
+}
+
+.form {
+    font-size: 23px;
+}
+
+.size {
+    font-size: 23px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.size1 {
+    font-size: 23px;
+}
+
+.size3 {
+    font-size: 18px;
+    margin: 15px;
+    padding: 18px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    width: 500PX;
+}
+
+.size4 {
+    font-size: 25px;
+    margin: 13px;
+    padding: 12px;
+}
+
+.he {
+    width: 600px;
+    height: 500px;
+    margin: 70px;
+    /* overflow: scroll; */
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    font-size: 20px;
+}
+
+.date {
+    font-size: 15px;
+    padding: 12px;
+}
+
+.size0 {
+    font-size: 23px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+/* cards-vistas */
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 410px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 200px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 70px;
+}

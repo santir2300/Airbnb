@@ -1,0 +1,35 @@
+<body>
+    <button onclick="document.getElementById('id03').style.display='block'" style="width: auto;"> Registrarte </button>
+
+    <div id="id03" class="modal">
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div>
+                <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal"> &times;</span>
+                <img src="/assets/usuario .png" alt="avatar1" class="usuario">
+            </div>
+            <div class="container1">
+                <label for="email"><b>Correo</b></label>
+                <input type="text" placeholder="@correo" name="email" required>
+
+                <label for="psw" class="psw1"><b>Contraseña</b></label>
+                <input type="password" class="psw2" placeholder="Contraseña" name="psw" required>
+
+                <label for="psw" class="psw1"><b>Repetir Contraseña</b></label>
+                <input type="password" class="psw2" placeholder="Repetir Contraseña" name="psw" required>
+
+                <hr>
+                <label>
+                <input type="checkbox" checked="checked" name="terminos"> 
+                By creating an account you agree to our <a href="#">Terms & Privacy</a>.
+
+            </label>
+                <button type="submit" class="registerbtn" (click)="register()">Register</button>
+                <div class="container signin">
+                    <p>Already have an account? <a href="#">Sign in</a>.</p>
+                </div>
+
+
+            </div>
+        </form>
+    </div>
+</body>

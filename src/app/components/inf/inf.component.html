@@ -1,0 +1,17 @@
+<body>
+
+    <h2 style="text-align:center">Apartamentos</h2>
+
+    <div *ngFor="let apartamento of apartamentos" class="card">
+        <img [src]="apartamento.img" alt="Denim Jeans" style="width:100%">
+        <h3> {{apartamento.name}} </h3>
+        <p>{{apartamento.Anfitrion}} </p>
+        <p> {{apartamento.precio}} </p>
+        <p>{{apartamento.comodidades}} </p>
+        <p>{{apartamento.descripcion}} </p>
+        <p>{{apartamento.entrada}} </p>
+        <p>{{apartamento.salida}} </p>
+
+    </div>
+
+</body>
